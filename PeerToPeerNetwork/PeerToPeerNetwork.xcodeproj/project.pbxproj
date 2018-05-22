@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CEF656120B3F80F00FAEF90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEF656020B3F80F00FAEF90 /* AppDelegate.swift */; };
+		7CEF656320B3F80F00FAEF90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEF656220B3F80F00FAEF90 /* ViewController.swift */; };
+		7CEF656620B3F80F00FAEF90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CEF656420B3F80F00FAEF90 /* Main.storyboard */; };
+		7CEF656920B3F80F00FAEF90 /* PeerToPeerNetwork.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7CEF656720B3F80F00FAEF90 /* PeerToPeerNetwork.xcdatamodeld */; };
+		7CEF656B20B3F81500FAEF90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CEF656A20B3F81500FAEF90 /* Assets.xcassets */; };
+		7CEF656E20B3F81500FAEF90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CEF656C20B3F81500FAEF90 /* LaunchScreen.storyboard */; };
+		7CEF657920B3F81500FAEF90 /* PeerToPeerNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEF657820B3F81500FAEF90 /* PeerToPeerNetworkTests.swift */; };
+		7CEF658420B3F81500FAEF90 /* PeerToPeerNetworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEF658320B3F81500FAEF90 /* PeerToPeerNetworkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CEF657520B3F81500FAEF90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CEF655520B3F80E00FAEF90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CEF655C20B3F80F00FAEF90;
+			remoteInfo = PeerToPeerNetwork;
+		};
+		7CEF658020B3F81500FAEF90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CEF655520B3F80E00FAEF90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CEF655C20B3F80F00FAEF90;
+			remoteInfo = PeerToPeerNetwork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7CEF655D20B3F80F00FAEF90 /* PeerToPeerNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeerToPeerNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CEF656020B3F80F00FAEF90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CEF656220B3F80F00FAEF90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7CEF656520B3F80F00FAEF90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CEF656820B3F80F00FAEF90 /* PeerToPeerNetwork.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PeerToPeerNetwork.xcdatamodel; sourceTree = "<group>"; };
+		7CEF656A20B3F81500FAEF90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CEF656D20B3F81500FAEF90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CEF656F20B3F81500FAEF90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CEF657420B3F81500FAEF90 /* PeerToPeerNetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeerToPeerNetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CEF657820B3F81500FAEF90 /* PeerToPeerNetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerToPeerNetworkTests.swift; sourceTree = "<group>"; };
+		7CEF657A20B3F81500FAEF90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CEF657F20B3F81500FAEF90 /* PeerToPeerNetworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeerToPeerNetworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CEF658320B3F81500FAEF90 /* PeerToPeerNetworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerToPeerNetworkUITests.swift; sourceTree = "<group>"; };
+		7CEF658520B3F81500FAEF90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CEF655A20B3F80F00FAEF90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CEF657120B3F81500FAEF90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CEF657C20B3F81500FAEF90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CEF655420B3F80E00FAEF90 = {
+			isa = PBXGroup;
+			children = (
+				7CEF655F20B3F80F00FAEF90 /* PeerToPeerNetwork */,
+				7CEF657720B3F81500FAEF90 /* PeerToPeerNetworkTests */,
+				7CEF658220B3F81500FAEF90 /* PeerToPeerNetworkUITests */,
+				7CEF655E20B3F80F00FAEF90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CEF655E20B3F80F00FAEF90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CEF655D20B3F80F00FAEF90 /* PeerToPeerNetwork.app */,
+				7CEF657420B3F81500FAEF90 /* PeerToPeerNetworkTests.xctest */,
+				7CEF657F20B3F81500FAEF90 /* PeerToPeerNetworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CEF655F20B3F80F00FAEF90 /* PeerToPeerNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				7CEF656020B3F80F00FAEF90 /* AppDelegate.swift */,
+				7CEF656220B3F80F00FAEF90 /* ViewController.swift */,
+				7CEF656420B3F80F00FAEF90 /* Main.storyboard */,
+				7CEF656A20B3F81500FAEF90 /* Assets.xcassets */,
+				7CEF656C20B3F81500FAEF90 /* LaunchScreen.storyboard */,
+				7CEF656F20B3F81500FAEF90 /* Info.plist */,
+				7CEF656720B3F80F00FAEF90 /* PeerToPeerNetwork.xcdatamodeld */,
+			);
+			path = PeerToPeerNetwork;
+			sourceTree = "<group>";
+		};
+		7CEF657720B3F81500FAEF90 /* PeerToPeerNetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CEF657820B3F81500FAEF90 /* PeerToPeerNetworkTests.swift */,
+				7CEF657A20B3F81500FAEF90 /* Info.plist */,
+			);
+			path = PeerToPeerNetworkTests;
+			sourceTree = "<group>";
+		};
+		7CEF658220B3F81500FAEF90 /* PeerToPeerNetworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CEF658320B3F81500FAEF90 /* PeerToPeerNetworkUITests.swift */,
+				7CEF658520B3F81500FAEF90 /* Info.plist */,
+			);
+			path = PeerToPeerNetworkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CEF655C20B3F80F00FAEF90 /* PeerToPeerNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CEF658820B3F81500FAEF90 /* Build configuration list for PBXNativeTarget "PeerToPeerNetwork" */;
+			buildPhases = (
+				7CEF655920B3F80F00FAEF90 /* Sources */,
+				7CEF655A20B3F80F00FAEF90 /* Frameworks */,
+				7CEF655B20B3F80F00FAEF90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeerToPeerNetwork;
+			productName = PeerToPeerNetwork;
+			productReference = 7CEF655D20B3F80F00FAEF90 /* PeerToPeerNetwork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CEF657320B3F81500FAEF90 /* PeerToPeerNetworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CEF658B20B3F81500FAEF90 /* Build configuration list for PBXNativeTarget "PeerToPeerNetworkTests" */;
+			buildPhases = (
+				7CEF657020B3F81500FAEF90 /* Sources */,
+				7CEF657120B3F81500FAEF90 /* Frameworks */,
+				7CEF657220B3F81500FAEF90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CEF657620B3F81500FAEF90 /* PBXTargetDependency */,
+			);
+			name = PeerToPeerNetworkTests;
+			productName = PeerToPeerNetworkTests;
+			productReference = 7CEF657420B3F81500FAEF90 /* PeerToPeerNetworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CEF657E20B3F81500FAEF90 /* PeerToPeerNetworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CEF658E20B3F81500FAEF90 /* Build configuration list for PBXNativeTarget "PeerToPeerNetworkUITests" */;
+			buildPhases = (
+				7CEF657B20B3F81500FAEF90 /* Sources */,
+				7CEF657C20B3F81500FAEF90 /* Frameworks */,
+				7CEF657D20B3F81500FAEF90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CEF658120B3F81500FAEF90 /* PBXTargetDependency */,
+			);
+			name = PeerToPeerNetworkUITests;
+			productName = PeerToPeerNetworkUITests;
+			productReference = 7CEF657F20B3F81500FAEF90 /* PeerToPeerNetworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CEF655520B3F80E00FAEF90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Alexey Levashov";
+				TargetAttributes = {
+					7CEF655C20B3F80F00FAEF90 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					7CEF657320B3F81500FAEF90 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 7CEF655C20B3F80F00FAEF90;
+					};
+					7CEF657E20B3F81500FAEF90 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 7CEF655C20B3F80F00FAEF90;
+					};
+				};
+			};
+			buildConfigurationList = 7CEF655820B3F80E00FAEF90 /* Build configuration list for PBXProject "PeerToPeerNetwork" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CEF655420B3F80E00FAEF90;
+			productRefGroup = 7CEF655E20B3F80F00FAEF90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CEF655C20B3F80F00FAEF90 /* PeerToPeerNetwork */,
+				7CEF657320B3F81500FAEF90 /* PeerToPeerNetworkTests */,
+				7CEF657E20B3F81500FAEF90 /* PeerToPeerNetworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CEF655B20B3F80F00FAEF90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CEF656E20B3F81500FAEF90 /* LaunchScreen.storyboard in Resources */,
+				7CEF656B20B3F81500FAEF90 /* Assets.xcassets in Resources */,
+				7CEF656620B3F80F00FAEF90 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CEF657220B3F81500FAEF90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CEF657D20B3F81500FAEF90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CEF655920B3F80F00FAEF90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CEF656920B3F80F00FAEF90 /* PeerToPeerNetwork.xcdatamodeld in Sources */,
+				7CEF656320B3F80F00FAEF90 /* ViewController.swift in Sources */,
+				7CEF656120B3F80F00FAEF90 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CEF657020B3F81500FAEF90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CEF657920B3F81500FAEF90 /* PeerToPeerNetworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CEF657B20B3F81500FAEF90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CEF658420B3F81500FAEF90 /* PeerToPeerNetworkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CEF657620B3F81500FAEF90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CEF655C20B3F80F00FAEF90 /* PeerToPeerNetwork */;
+			targetProxy = 7CEF657520B3F81500FAEF90 /* PBXContainerItemProxy */;
+		};
+		7CEF658120B3F81500FAEF90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CEF655C20B3F80F00FAEF90 /* PeerToPeerNetwork */;
+			targetProxy = 7CEF658020B3F81500FAEF90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CEF656420B3F80F00FAEF90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CEF656520B3F80F00FAEF90 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CEF656C20B3F81500FAEF90 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CEF656D20B3F81500FAEF90 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CEF658620B3F81500FAEF90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CEF658720B3F81500FAEF90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CEF658920B3F81500FAEF90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7LXMY3S29;
+				INFOPLIST_FILE = PeerToPeerNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PeerToPeerNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CEF658A20B3F81500FAEF90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7LXMY3S29;
+				INFOPLIST_FILE = PeerToPeerNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PeerToPeerNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7CEF658C20B3F81500FAEF90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7LXMY3S29;
+				INFOPLIST_FILE = PeerToPeerNetworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PeerToPeerNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeerToPeerNetwork.app/PeerToPeerNetwork";
+			};
+			name = Debug;
+		};
+		7CEF658D20B3F81500FAEF90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7LXMY3S29;
+				INFOPLIST_FILE = PeerToPeerNetworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PeerToPeerNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeerToPeerNetwork.app/PeerToPeerNetwork";
+			};
+			name = Release;
+		};
+		7CEF658F20B3F81500FAEF90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7LXMY3S29;
+				INFOPLIST_FILE = PeerToPeerNetworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PeerToPeerNetworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PeerToPeerNetwork;
+			};
+			name = Debug;
+		};
+		7CEF659020B3F81500FAEF90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7LXMY3S29;
+				INFOPLIST_FILE = PeerToPeerNetworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PeerToPeerNetworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PeerToPeerNetwork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CEF655820B3F80E00FAEF90 /* Build configuration list for PBXProject "PeerToPeerNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CEF658620B3F81500FAEF90 /* Debug */,
+				7CEF658720B3F81500FAEF90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CEF658820B3F81500FAEF90 /* Build configuration list for PBXNativeTarget "PeerToPeerNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CEF658920B3F81500FAEF90 /* Debug */,
+				7CEF658A20B3F81500FAEF90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CEF658B20B3F81500FAEF90 /* Build configuration list for PBXNativeTarget "PeerToPeerNetworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CEF658C20B3F81500FAEF90 /* Debug */,
+				7CEF658D20B3F81500FAEF90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CEF658E20B3F81500FAEF90 /* Build configuration list for PBXNativeTarget "PeerToPeerNetworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CEF658F20B3F81500FAEF90 /* Debug */,
+				7CEF659020B3F81500FAEF90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7CEF656720B3F80F00FAEF90 /* PeerToPeerNetwork.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7CEF656820B3F80F00FAEF90 /* PeerToPeerNetwork.xcdatamodel */,
+			);
+			currentVersion = 7CEF656820B3F80F00FAEF90 /* PeerToPeerNetwork.xcdatamodel */;
+			path = PeerToPeerNetwork.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7CEF655520B3F80E00FAEF90 /* Project object */;
+}
